@@ -14,18 +14,18 @@
 在 `cubelist/config.yml` 中配置：
 
 ```yaml
-URL: 'https://verify-teb.bwumc.cn/whitelist.json'
-ServiceName: 'TheEntityByte'
-Quest: 'mao0705/Charlotte169'
+URL: '你的JSON文件地址'
+ServiceName: '服务器名称'
+Quest: '咨询人'
 ```
 
 ### 配置说明
 
 | 字段 | 说明 | 示例 |
 |------|------|------|
-| `URL` | 白名单 JSON 数据地址 | `https://verify-teb.bwumc.cn/whitelist.json` |
-| `ServiceName` | 服务器标识名称 | `TheEntityByte` |
-| `Quest` | 问询者标识 | `mao0705/Charlotte169` |
+| `URL` | 白名单 JSON 数据地址 | `https://api.server.xd/whitelist.json` |
+| `ServiceName` | 服务器标识名称 | `Star Server` |
+| `Quest` | 问询者标识 | `CarlSkyCoding` |
 
 ## 🔄 重载命令
 
@@ -41,8 +41,8 @@ Quest: 'mao0705/Charlotte169'
 
 1. 将插件放入 Velocity 的 plugins 文件夹
 2. 重启服务器
-3. 编辑 `cubelist/config.yml` 配置你的白名单源
-4. 使用 `/cbreload` 加载白名单
+3. 编辑 `cubelist/config.yml` 配置你的白名单源（启动一次会自动创建）
+4. 启动服务器！
 
 ## 📄 JSON 格式要求
 
