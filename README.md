@@ -1,6 +1,6 @@
 # CubeList 🎯
 
-一个支持在线 JSON 文件的白名单控制器
+一个白名单 Velocity 服务端插件，支持在线 JSON 文件
 
 ## ✨ 特性
 
