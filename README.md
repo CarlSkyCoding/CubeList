@@ -1,4 +1,3 @@
-```markdown
 # CubeList 🎯
 
 一个支持在线 JSON 文件的白名单控制器
