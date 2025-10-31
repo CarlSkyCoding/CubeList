@@ -29,13 +29,11 @@ Quest: '咨询人'
 
 ## 🔄 重载命令
 
-使用 `cbreload` 命令重新从 URL 获取白名单数据：
+使用 `cbreload` 命令重新从 URL 获取白名单数据（会重新读取 config.yml）：
 
 ```bash
 /cbreload
 ```
-
-> **注意**: 目前重载不会重新读取 config.yml 中的 URL 配置，仅重新获取当前 URL 的白名单数据。
 
 ## 🚀 快速开始
 
